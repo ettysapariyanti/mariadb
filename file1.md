@@ -15,5 +15,5 @@ CREATE DATABASE saham;
 Setelah database selesai dibuat, maka kita akan membuat user, yg bisa memakai database itu. Untuk membuat user yg bisa mengakses database itu dari mana saja ( dari ip mana saja), maka kita jalankan perintah:
 
 ```sql
-CREATE USER 'steven'@'%' IDENTIFIED BY PASSWORD 'tempegoreng';
+CREATE USER 'steven'@'%' IDENTIFIED BY 'tempegoreng';
 ```
