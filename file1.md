@@ -17,3 +17,12 @@ Setelah database selesai dibuat, maka kita akan membuat user, yg bisa memakai da
 ```sql
 CREATE USER 'steven'@'%' IDENTIFIED BY 'tempegoreng';
 ```
+
+Perintah untuk mengganti password dari user yg telah di buat:
+
+```sql
+ALTER USER 'steven'@'%' IDENTIFIED BY 'tahugoreng';
+```
+
+
+
