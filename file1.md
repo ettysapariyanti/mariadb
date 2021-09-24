@@ -24,5 +24,13 @@ Perintah untuk mengganti password dari user yg telah di buat:
 ALTER USER 'steven'@'%' IDENTIFIED BY 'tahugoreng';
 ```
 
+Perintah untuk memberi hak akses ke sebuah database terhadap seorang user :
+
+```sql
+GRANT ALL PRIVILEGES ON saham.* TO 'steven'@'%' IDENTIFIED BY 'tahugoreng';
+```
+
+
+
 
 
