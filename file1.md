@@ -2,7 +2,9 @@
 
 Berikut ini adalah perintah-perintah yg sering dipakai dalam menggunakan MariaDB . Untuk menginstal Mariadb di Debian 11, menggunakan perintah berikut :
 
+```bash
 apt install mariadb-server mariadb-client
+```
 
 Selanjutnya untuk membuat database, jalankan perintah:
 
