@@ -30,6 +30,22 @@ Perintah untuk memberi hak akses ke sebuah database terhadap seorang user :
 GRANT ALL PRIVILEGES ON saham.* TO 'steven'@'%' IDENTIFIED BY 'tahugoreng';
 ```
 
+Perintah untuk terkoneksi ke server MariaDB yang posisi fisiknya berada di remote, semisal di VPS yang ada di cloud, maka dari komputer pribadi jalankan perintah ini:
+
+```sql
+C:\xampp\mysql\bin\mysql.exe -h 100.100.100.100 -u steven -p
+```
+
+
+Contoh perintah untuk dump tabel datakomputer1 yang ada di dalam database ke file .sql, sehingga nantinya data-data di tabel datakomputer1 bisa di restore ke server MariaDB yg lain:
+
+```sql
+C:\xampp\mysql\bin\mysqldump.exe saham datakomputer1 > datakomputer1.sql
+```
+
+
+
+
 
 
 
